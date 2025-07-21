@@ -136,3 +136,46 @@
 [21Jul2025 04:35:32.265] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Curlyelperroo[/172.22.1.61:49749] logged in with entity id 7859 at (3.5, 67.0, 2.5)
 [21Jul2025 04:35:32.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo joined the game
 [21Jul2025 04:35:32.278] [Server thread/INFO] [Jade/]: Syncing config to Curlyelperroo (143bd22d-2d84-37b2-b23a-7c012410f6a8)
+[21Jul2025 04:36:41.949] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=4, y=68, z=6}
+[21Jul2025 04:37:19.047] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 37092ms or 741 ticks behind
+[21Jul2025 04:37:19.068] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otaku6063 lost connection: Disconnected
+[21Jul2025 04:37:19.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 left the game
+[21Jul2025 04:37:19.080] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Curlyelperroo lost connection: Disconnected
+[21Jul2025 04:37:19.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo left the game
+[21Jul2025 04:37:27.504] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@9b1c2b0[id=<null>,name=Curlyelperroo,properties={},legacy=false] (/172.22.1.61:49753) lost connection: Disconnected
+[21Jul2025 04:37:35.829] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Curlyelperroo[/172.22.1.61:49756] logged in with entity id 8561 at (3.7640875548197132, 67.0, 5.043123249204115)
+[21Jul2025 04:37:35.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo joined the game
+[21Jul2025 04:37:35.868] [Server thread/INFO] [Jade/]: Syncing config to Curlyelperroo (143bd22d-2d84-37b2-b23a-7c012410f6a8)
+[21Jul2025 04:37:55.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo was slain by Spider
+[21Jul2025 04:37:59.867] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otaku6063[/172.22.42.121:61586] logged in with entity id 8822 at (36.450564439670025, 69.25220334025373, -289.87439589349134)
+[21Jul2025 04:37:59.873] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Otaku6063
+[21Jul2025 04:37:59.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 joined the game
+[21Jul2025 04:37:59.889] [Server thread/INFO] [Jade/]: Syncing config to Otaku6063 (25f1de13-4001-3ca5-9353-f2b93d25a972)
+[21Jul2025 04:38:13.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo was slain by Spider
+[21Jul2025 04:38:43.832] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=73, z=-4}
+[21Jul2025 04:38:43.916] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=73, z=-4}
+[21Jul2025 04:38:46.819] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=73, z=-4}
+[21Jul2025 04:38:47.065] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=73, z=-4}
+[21Jul2025 04:38:47.914] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otaku6063 lost connection: Disconnected
+[21Jul2025 04:38:47.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 left the game
+[21Jul2025 04:38:48.281] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=73, z=-4}
+[21Jul2025 04:39:18.561] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Curlyelperroo lost connection: Disconnected
+[21Jul2025 04:39:18.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo left the game
+[21Jul2025 04:39:20.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[21Jul2025 04:39:20.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: restart<--[HERE]
+[21Jul2025 04:39:24.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[21Jul2025 04:39:24.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Jul2025 04:39:24.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Jul2025 04:39:24.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Jul2025 04:39:24.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Jul2025 04:39:24.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
+[21Jul2025 04:39:24.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_doppelganger:subworld
+[21Jul2025 04:39:24.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Jul2025 04:39:24.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Jul2025 04:39:24.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Jul2025 04:39:24.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
+[21Jul2025 04:39:24.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (subworld): All chunks are saved
+[21Jul2025 04:39:24.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Jul2025 04:39:24.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Jul2025 04:39:24.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Jul2025 04:39:24.813] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config

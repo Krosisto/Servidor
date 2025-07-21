@@ -1,0 +1,35 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "group": "bedroom",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:bamboo",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:cherry",
+    "minecraft:dark_oak",
+    "minecraft:mangrove",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "mofus_better_end_:weepingstar",
+    "mofus_better_end_:frost_root"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [
+      {
+        "item": "minecraft:green_bed"
+      }
+    ],
+    "variantChildren": {
+      "base": 5
+    }
+  },
+  "result": {
+    "outputClass": "SimpleBedBlock",
+    "tag": {
+      "color": "green"
+    }
+  }
+}

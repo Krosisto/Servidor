@@ -1,0 +1,50 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "group": "kitchen",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:bamboo",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:cherry",
+    "minecraft:dark_oak",
+    "minecraft:mangrove",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "mofus_better_end_:weepingstar",
+    "mofus_better_end_:frost_root",
+    "minecraft:stone",
+    "minecraft:calcite",
+    "minecraft:light_wood",
+    "minecraft:dark_wood",
+    "minecraft:pink_wood",
+    "minecraft:netherite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:deepslate",
+    "mofus_better_end_:cryostone_bricks",
+    ":dark_concrete",
+    ":concrete",
+    ":smooth_stone",
+    ":deepslate_tile",
+    ":granite_terracotta",
+    ":andesite_oak",
+    ":deepslate_dark_oak",
+    ":blackstone_crimson"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [],
+    "variantChildren": {
+      "base": 6
+    }
+  },
+  "result": {
+    "outputClass": "KitchenWallCounterBlock",
+    "count": 6
+  }
+}

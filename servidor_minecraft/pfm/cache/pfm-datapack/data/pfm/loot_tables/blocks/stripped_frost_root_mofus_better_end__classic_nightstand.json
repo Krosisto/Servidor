@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "stripped_frost_root_mofus_better_end__classic_nightstand",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:stripped_frost_root_mofus_better_end__classic_nightstand"
+        }
+      ]
+    }
+  ]
+}

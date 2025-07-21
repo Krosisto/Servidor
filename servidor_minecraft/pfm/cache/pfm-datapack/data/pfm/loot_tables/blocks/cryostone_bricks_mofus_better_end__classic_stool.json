@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "cryostone_bricks_mofus_better_end__classic_stool",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:cryostone_bricks_mofus_better_end__classic_stool"
+        }
+      ]
+    }
+  ]
+}

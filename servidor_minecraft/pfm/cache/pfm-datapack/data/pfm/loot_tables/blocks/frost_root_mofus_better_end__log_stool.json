@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "frost_root_mofus_better_end__log_stool",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:frost_root_mofus_better_end__log_stool"
+        }
+      ]
+    }
+  ]
+}

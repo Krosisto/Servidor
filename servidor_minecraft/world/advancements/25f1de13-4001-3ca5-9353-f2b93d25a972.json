@@ -1632,12 +1632,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-21 06:28:44 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-07-21 06:12:43 +0000"
@@ -1647,12 +1641,6 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-07-21 06:12:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-21 06:28:44 +0000"
     },
     "done": true
   },
@@ -1671,18 +1659,6 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2025-07-21 06:12:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2025-07-21 06:29:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2025-07-21 06:30:22 +0000"
     },
     "done": true
   },
@@ -1710,15 +1686,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-21 06:12:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-21 06:28:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-21 06:28:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-07-21 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-07-21 06:30:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-07-21 06:30:22 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
-      "has_gold_ingot": "2025-07-21 06:12:43 +0000"
+      "has_gold_block": "2025-07-22 22:39:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-07-22 22:34:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-07-22 22:34:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-07-22 22:34:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-07-22 22:34:29 +0000"
     },
     "done": true
   },

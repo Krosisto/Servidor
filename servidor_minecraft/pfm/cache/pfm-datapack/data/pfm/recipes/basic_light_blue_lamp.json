@@ -11,9 +11,7 @@
     "minecraft:dark_oak",
     "minecraft:mangrove",
     "minecraft:crimson",
-    "minecraft:warped",
-    "mofus_better_end_:weepingstar",
-    "mofus_better_end_:frost_root"
+    "minecraft:warped"
   ],
   "ingredients": {
     "vanillaIngredients": [

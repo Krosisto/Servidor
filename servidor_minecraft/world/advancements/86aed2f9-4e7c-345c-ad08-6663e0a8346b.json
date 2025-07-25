@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-25 02:29:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-07-25 02:29:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2025-07-25 02:29:48 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

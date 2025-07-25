@@ -584,6 +584,7 @@
       "minecraft:witch": "2025-07-24 02:05:23 +0000",
       "minecraft:cave_spider": "2025-07-21 05:51:28 +0000",
       "minecraft:silverfish": "2025-07-21 05:59:05 +0000",
+      "minecraft:enderman": "2025-07-25 01:39:57 +0000",
       "minecraft:zombie": "2025-07-20 04:10:43 +0000",
       "minecraft:drowned": "2025-07-24 00:36:03 +0000"
     },
@@ -1876,6 +1877,42 @@
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_peony": "2025-07-24 01:41:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_the_recipe": "2025-07-25 01:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-07-25 01:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-07-25 01:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-25 01:42:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-07-25 01:43:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-25 01:42:03 +0000"
     },
     "done": true
   },

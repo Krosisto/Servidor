@@ -1,385 +1,182 @@
-[25Jul2025 01:21:23.002] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[25Jul2025 01:21:23.007] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[25Jul2025 01:21:24.841] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[25Jul2025 01:21:24.924] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[25Jul2025 01:21:25.166] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Servidor/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[25Jul2025 01:21:25.426] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[25Jul2025 01:21:25.427] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[25Jul2025 01:21:25.428] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[25Jul2025 01:21:25.429] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[25Jul2025 01:21:25.940] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[25Jul2025 01:21:25.942] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[25Jul2025 01:21:28.189] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Jul2025 01:21:28.334] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[25Jul2025 01:21:28.335] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[25Jul2025 01:21:28.337] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[25Jul2025 01:21:28.528] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.0+mc1.20.1: 96 options available, 1 override(s) found
-[25Jul2025 01:21:28.528] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
-[25Jul2025 01:21:28.529] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[25Jul2025 01:21:28.665] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[25Jul2025 01:21:28.836] [main/WARN] [mixin/]: Reference map 'carryonextend.refmap.json' for carryonextend.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Jul2025 01:21:30.047] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
-[25Jul2025 01:21:30.172] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[25Jul2025 01:21:30.172] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[25Jul2025 01:21:30.172] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[25Jul2025 01:21:30.174] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[25Jul2025 01:21:30.174] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[25Jul2025 01:21:30.174] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[25Jul2025 01:21:30.175] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[25Jul2025 01:21:30.176] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[25Jul2025 01:21:30.367] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[25Jul2025 01:21:31.068] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (14.37 s after launch)
-[25Jul2025 01:21:31.311] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[25Jul2025 01:21:31.312] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[25Jul2025 01:21:31.423] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[25Jul2025 01:21:31.425] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[25Jul2025 01:21:33.021] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1950 milliseconds
-[25Jul2025 01:21:36.246] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
-[25Jul2025 01:21:36.473] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[25Jul2025 01:21:36.474] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[25Jul2025 01:21:36.516] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[25Jul2025 01:21:36.520] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[25Jul2025 01:21:36.726] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
-[25Jul2025 01:21:36.726] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
-[25Jul2025 01:21:36.726] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
-[25Jul2025 01:21:36.784] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loading config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
-[25Jul2025 01:21:36.784] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Built config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
-[25Jul2025 01:21:36.785] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loaded config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
-[25Jul2025 01:21:36.856] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[25Jul2025 01:21:37.390] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Is up to date!
-[25Jul2025 01:21:38.160] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: Found block type with duplicate id (minecraft:oak), skipping
-[25Jul2025 01:21:39.109] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[25Jul2025 01:21:39.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json
-[25Jul2025 01:21:39.275] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[25Jul2025 01:21:39.275] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[25Jul2025 01:21:39.275] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[25Jul2025 01:21:39.276] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[25Jul2025 01:21:39.276] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[25Jul2025 01:21:39.276] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[25Jul2025 01:21:39.276] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[25Jul2025 01:21:39.276] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[25Jul2025 01:21:39.276] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
-[25Jul2025 01:21:39.391] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[25Jul2025 01:21:39.415] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[25Jul2025 01:21:39.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: OUTDATED Current: 1.8.2+mod Target: 1.8.6+mod
-[25Jul2025 01:21:39.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[25Jul2025 01:21:39.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[25Jul2025 01:21:39.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
-[25Jul2025 01:21:39.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.3 Target: null
-[25Jul2025 01:21:39.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[25Jul2025 01:21:39.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[25Jul2025 01:21:39.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
-[25Jul2025 01:21:39.725] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[25Jul2025 01:21:39.731] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[25Jul2025 01:21:39.732] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[25Jul2025 01:21:39.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
-[25Jul2025 01:21:39.741] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[25Jul2025 01:21:39.744] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[25Jul2025 01:21:40.319] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[25Jul2025 01:21:40.421] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[25Jul2025 01:21:40.766] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
-[25Jul2025 01:21:40.767] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
-[25Jul2025 01:21:53.230] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/Servidor/servidor_minecraft/tacz
-[25Jul2025 01:21:53.232] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
-[25Jul2025 01:21:53.232] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
-[25Jul2025 01:21:54.038] [main/INFO] [PFM-DataGen/]: Data Hash for Game Data and Variant List matched, skipping generation
-[25Jul2025 01:21:56.524] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[25Jul2025 01:21:56.628] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1782 advancements
-[25Jul2025 01:21:56.747] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[25Jul2025 01:21:56.750] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[25Jul2025 01:21:56.794] [main/WARN] [ModernFix/]: Initial datapack load took 15.99 s
-[25Jul2025 01:21:56.999] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[25Jul2025 01:21:56.999] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[25Jul2025 01:21:57.000] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[25Jul2025 01:21:57.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[25Jul2025 01:21:57.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[25Jul2025 01:21:57.100] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[25Jul2025 01:21:57.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[25Jul2025 01:21:57.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[25Jul2025 01:21:57.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[25Jul2025 01:21:57.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[25Jul2025 01:21:57.211] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
-[25Jul2025 01:21:57.262] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[25Jul2025 01:21:57.804] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[25Jul2025 01:21:57.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25Jul2025 01:21:57.844] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 40 ms
-[25Jul2025 01:21:57.845] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.639s)! For help, type "help"
-[25Jul2025 01:21:58.256] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[25Jul2025 01:21:58.260] [Server thread/WARN] [ModernFix/]: Dedicated server took 41.558 seconds to load
-[25Jul2025 01:22:09.616] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[25Jul2025 01:22:09.827] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otaku6063[/172.22.42.121:53172] logged in with entity id 2 at (7365.587481792223, 80.0, 2969.213990237267)
-[25Jul2025 01:22:09.880] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Otaku6063
-[25Jul2025 01:22:09.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 joined the game
-[25Jul2025 01:22:10.007] [Server thread/INFO] [Jade/]: Syncing config to Otaku6063 (25f1de13-4001-3ca5-9353-f2b93d25a972)
-[25Jul2025 01:22:25.586] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Curlyelperroo[/172.22.1.61:59702] logged in with entity id 529 at (7363.465205429801, 80.0, 2969.17813302196)
-[25Jul2025 01:22:25.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo joined the game
-[25Jul2025 01:22:25.668] [Server thread/INFO] [Jade/]: Syncing config to Curlyelperroo (143bd22d-2d84-37b2-b23a-7c012410f6a8)
-[25Jul2025 01:22:30.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> hola papa
-[25Jul2025 01:22:47.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> holamama
-[25Jul2025 01:22:53.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> te saco lo creativo
-[25Jul2025 01:22:54.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> kjj
-[25Jul2025 01:23:00.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> como se saca alguien de operador
-[25Jul2025 01:23:05.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> bnnoooooo
-[25Jul2025 01:23:08.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> KJJKJ
-[25Jul2025 01:23:10.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> todVIa no
-[25Jul2025 01:23:14.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> cuando esten odas
-[25Jul2025 01:23:36.173] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7339, y=81, z=2990} BlockPos{x=7337, y=79, z=2992}
-[25Jul2025 01:23:36.245] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7339, y=81, z=2990} BlockPos{x=7337, y=79, z=2992}
-[25Jul2025 01:23:42.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> hay q hacer una huerta
-[25Jul2025 01:23:47.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> hay q agarrarlos aldeanos
-[25Jul2025 01:23:56.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7332, y=80, z=2992} BlockPos{x=7330, y=79, z=2991}
-[25Jul2025 01:24:14.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> ves lo mismo q yo?
-[25Jul2025 01:24:21.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> qehee
-[25Jul2025 01:24:39.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> nove
-[25Jul2025 01:25:05.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> lomande en el grupol
-[25Jul2025 01:25:12.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> mi largarto
-[25Jul2025 01:25:30.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> kjjj
-[25Jul2025 01:25:38.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> esta mi famiali
-[25Jul2025 01:25:45.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> por es no puedo llamada
-[25Jul2025 01:25:52.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> lovi
-[25Jul2025 01:25:55.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> quesesooo
-[25Jul2025 01:25:59.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> aytule opobrecite
-[25Jul2025 01:26:49.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> viy hacer una granja de creeper
-[25Jul2025 01:27:02.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> y de hierro
-[25Jul2025 01:27:04.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> MUEJEJEJE
-[25Jul2025 01:27:09.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> OMGG
-[25Jul2025 01:27:12.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> AAH
-[25Jul2025 01:27:16.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> QUEEE
-[25Jul2025 01:27:17.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> podes encargarte de los aldeanos
-[25Jul2025 01:27:25.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> hacemos un subterraneo?
-[25Jul2025 01:27:27.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> yo iba a minar
-[25Jul2025 01:27:31.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> puciote
-[25Jul2025 01:27:34.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> JJj
-[25Jul2025 01:27:38.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> minas con tais
-[25Jul2025 01:27:40.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> o gio
-[25Jul2025 01:27:48.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> guego ahi voy
-[25Jul2025 01:27:51.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> como los traifo
-[25Jul2025 01:27:55.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> JJJ
-[25Jul2025 01:28:04.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> andaadna
-[25Jul2025 01:28:10.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> yo me ocpu la superficie entonces
-[25Jul2025 01:28:13.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> toma
-[25Jul2025 01:28:26.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> madera para sobrevivir
-[25Jul2025 01:28:29.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> los traigo en bote?
-[25Jul2025 01:28:44.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> donde sacaste conejo?
-[25Jul2025 01:28:48.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> cocinamos toda la papa
-[25Jul2025 01:28:50.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> KJJJ
-[25Jul2025 01:28:55.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> KJJJJJ
-[25Jul2025 01:29:04.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> lo sque de la aldea
-[25Jul2025 01:29:06.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> gigante
-[25Jul2025 01:29:10.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> omgg
-[25Jul2025 01:29:16.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> despues los traes
-[25Jul2025 01:29:19.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> les hago tp
-[25Jul2025 01:29:21.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> eso dijo gio
-[25Jul2025 01:29:25.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> soy el unico op
-[25Jul2025 01:29:31.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> JHJHh'ww
-[25Jul2025 01:30:43.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> KJJJ
-[25Jul2025 01:30:46.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> ehjeejeejje
-[25Jul2025 01:30:50.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> NOpute
-[25Jul2025 01:30:53.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> AA
-[25Jul2025 01:30:53.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> TE ACORDAS?
-[25Jul2025 01:30:56.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> KJJJJJJJ
-[25Jul2025 01:30:58.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> ahora es facilisimo
-[25Jul2025 01:31:08.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> mi bebe
-[25Jul2025 01:31:12.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> KJJJJ
-[25Jul2025 01:31:15.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> foto
-[25Jul2025 01:31:18.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> donde lo dejamos
-[25Jul2025 01:31:41.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> geeyy
-[25Jul2025 01:31:43.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> en un gueco
-[25Jul2025 01:31:45.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> wtfff
-[25Jul2025 01:31:47.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> ccerca de nuestra casa
-[25Jul2025 01:32:04.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> se me habia o0lvidado donde etaba kjjj
-[25Jul2025 01:32:11.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> JJKJw
-[25Jul2025 01:32:58.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> solo queda uno
-[25Jul2025 01:33:04.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> aca+w+w
-[25Jul2025 01:33:09.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> QQYE'w
-[25Jul2025 01:33:15.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> uff
-[25Jul2025 01:33:20.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> conservamos las dos ultimas especies
-[25Jul2025 01:33:25.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> KJKJJj
-[25Jul2025 01:33:34.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> viyaentrar
-[25Jul2025 01:33:36.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> a esta cueva
-[25Jul2025 01:34:55.975] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otaku6063 lost connection: Timed out
-[25Jul2025 01:34:55.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 left the game
-[25Jul2025 01:34:56.021] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[25Jul2025 01:35:38.670] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otaku6063[/172.22.42.121:53267] logged in with entity id 7037 at (7363.298777191829, 80.0, 2962.178384704957)
-[25Jul2025 01:35:38.676] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Otaku6063
-[25Jul2025 01:35:38.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 joined the game
-[25Jul2025 01:35:38.739] [Server thread/INFO] [Jade/]: Syncing config to Otaku6063 (25f1de13-4001-3ca5-9353-f2b93d25a972)
-[25Jul2025 01:35:43.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> jijijij
-[25Jul2025 01:35:45.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> puto internet
-[25Jul2025 01:35:57.226] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7345, y=80, z=2949} BlockPos{x=7344, y=78, z=2950}
-[25Jul2025 01:35:57.245] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7345, y=80, z=2949} BlockPos{x=7344, y=78, z=2950}
-[25Jul2025 01:35:57.299] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7345, y=80, z=2949} BlockPos{x=7344, y=78, z=2950}
-[25Jul2025 01:35:57.707] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7342, y=80, z=2949} BlockPos{x=7341, y=78, z=2949}
-[25Jul2025 01:35:57.772] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7342, y=80, z=2949} BlockPos{x=7341, y=78, z=2949}
-[25Jul2025 01:38:45.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> coomo no vamos a tener epscado
-[25Jul2025 01:38:51.957] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7372, y=80, z=2946} BlockPos{x=7373, y=79, z=2946}
-[25Jul2025 01:38:51.995] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7372, y=80, z=2946} BlockPos{x=7373, y=79, z=2946}
-[25Jul2025 01:38:52.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> KJHJH
-[25Jul2025 01:39:14.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> q ganas de njugar con el mod de pokemonm
-[25Jul2025 01:39:23.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> chimal
-[25Jul2025 01:39:30.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo has made the advancement [Not Today, Thank You]
-[25Jul2025 01:42:15.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Take Aim]
-[25Jul2025 01:43:15.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> epa no me dijsite era encantada la ballesta
-[25Jul2025 01:43:20.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> iejiejejej
-[25Jul2025 01:43:58.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Ol' Betsy]
-[25Jul2025 01:44:08.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> agiva tule
-[25Jul2025 01:56:10.255] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7399, y=74, z=3053} BlockPos{x=7399, y=73, z=3052}
-[25Jul2025 01:59:49.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 was slain by Enderman
-[25Jul2025 02:00:09.680] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeletonpose5Entity['Otaku6063's corpse'/24321, l='ServerLevel[world]', x=7329.50, y=76.14, z=2871.50] died: Otaku6063's corpse was slain by Otaku6063
-[25Jul2025 02:06:04.581] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7354.53, 80.00, 2964.27).
- Impact position: BlockPos{x=7353, y=78, z=2968}. Hole Size: 54. Creative: false
-[25Jul2025 02:06:16.174] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7382.26, 80.00, 2976.67).
- Impact position: BlockPos{x=7402, y=77, z=2975}. Hole Size: 2. Creative: false
-[25Jul2025 02:06:18.231] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7384.22, 80.00, 2976.60).
- Impact position: BlockPos{x=7396, y=76, z=2977}. Hole Size: 241. Creative: false
-[25Jul2025 02:07:40.871] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7382.82, 80.00, 2963.96).
- Impact position: BlockPos{x=7385, y=78, z=2970}. Hole Size: 25. Creative: false
-[25Jul2025 02:07:58.222] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7384.62, 79.00, 2972.95).
- Impact position: BlockPos{x=7399, y=78, z=2975}. Hole Size: 17. Creative: false
-[25Jul2025 02:12:00.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 fell from a high place
-[25Jul2025 02:12:24.990] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeletonpose4Entity['Otaku6063's corpse'/30490, l='ServerLevel[world]', x=7414.50, y=40.00, z=2875.50] died: Otaku6063's corpse was slain by Otaku6063
-[25Jul2025 02:14:50.999] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:14:51.000] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:14:51.025] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7a4007d2[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:42720) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:14:59.586] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:14:59.586] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:14:59.619] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@58d89fde[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:39944) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:15:08.369] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:15:08.370] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:15:08.371] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@51f7f320[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:43192) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:16:45.321] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Curlyelperroo lost connection: Timed out
-[25Jul2025 02:16:45.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo left the game
-[25Jul2025 02:16:56.381] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Curlyelperroo[/172.22.1.61:59794] logged in with entity id 33657 at (7364.311097121603, 80.5625, 2969.84565702918)
-[25Jul2025 02:16:56.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo joined the game
-[25Jul2025 02:16:56.414] [Server thread/INFO] [Jade/]: Syncing config to Curlyelperroo (143bd22d-2d84-37b2-b23a-7c012410f6a8)
-[25Jul2025 02:18:48.968] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@4b3f328b[id=<null>,name=Leyys,properties={},legacy=false] (/172.22.232.174:58224): Took too long to log in
-[25Jul2025 02:18:48.969] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4b3f328b[id=<null>,name=Leyys,properties={},legacy=false] (/172.22.232.174:58224) lost connection: Took too long to log in
-[25Jul2025 02:18:49.018] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[25Jul2025 02:19:14.731] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:19:14.731] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:19:14.767] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3536f9e6[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:42680) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:19:19.668] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7381.44, 80.00, 2976.10).
- Impact position: BlockPos{x=7401, y=78, z=2985}. Hole Size: 1. Creative: false
-[25Jul2025 02:19:20.674] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:19:20.674] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:19:20.718] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7ff87195[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:49426) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:19:21.374] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7381.44, 80.00, 2976.10).
- Impact position: BlockPos{x=7396, y=78, z=2983}. Hole Size: 31. Creative: false
-[25Jul2025 02:19:23.467] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7381.44, 80.00, 2976.10).
- Impact position: BlockPos{x=7395, y=78, z=2982}. Hole Size: 36. Creative: false
-[25Jul2025 02:19:23.897] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:19:23.897] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:19:23.918] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4a3ffa4[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:49428) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:19:26.517] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7382.70, 80.00, 2977.63).
- Impact position: BlockPos{x=7392, y=78, z=2969}. Hole Size: 3. Creative: false
-[25Jul2025 02:19:27.470] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:19:27.470] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:19:27.517] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b875e4c[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:49434) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:19:28.569] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7382.70, 80.00, 2977.63).
- Impact position: BlockPos{x=7391, y=78, z=2970}. Hole Size: 119. Creative: false
-[25Jul2025 02:19:33.623] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler - Light] from (7382.54, 80.00, 2979.00).
- Impact position: BlockPos{x=7383, y=79, z=2984}. Hole Size: 1. Creative: false
-[25Jul2025 02:19:38.539] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [the_doppelganger:the_doppelganger] rejected their client side version number
-[25Jul2025 02:19:38.539] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[25Jul2025 02:19:38.567] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1fffff5e[id=<null>,name=KALO_12u8i,properties={},legacy=false] (/172.22.190.173:60626) lost connection: Connection closed - mismatched mod channel list
-[25Jul2025 02:25:10.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo was slain by The Doppelganger
-[25Jul2025 02:25:19.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 was slain by The Doppelganger
-[25Jul2025 02:25:21.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Curlyelperroo: Teleported Curlyelperroo to Otaku6063]
-[25Jul2025 02:25:26.632] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeletonpose5Entity['Otaku6063's corpse'/37376, l='ServerLevel[world]', x=7372.50, y=80.00, z=2970.50] died: Otaku6063's corpse was slain by Otaku6063
-[25Jul2025 02:25:31.105] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeletonpose5Entity['Curlyelperroo's corpse'/37164, l='ServerLevel[world]', x=7358.50, y=80.00, z=2957.50] died: Curlyelperroo's corpse was slain by Curlyelperroo
-[25Jul2025 02:26:24.568] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7379.26, 80.00, 2965.45).
- Impact position: BlockPos{x=7385, y=79, z=2966}. Hole Size: 31. Creative: false
-[25Jul2025 02:26:28.796] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7400, y=80, z=2998} BlockPos{x=7400, y=78, z=2999}
-[25Jul2025 02:26:28.919] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7400, y=80, z=2998} BlockPos{x=7400, y=78, z=2999}
-[25Jul2025 02:26:29.599] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7404, y=80, z=2999} BlockPos{x=7404, y=78, z=2999}
-[25Jul2025 02:26:42.170] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7393.74, 79.00, 2978.30).
- Impact position: BlockPos{x=7389, y=79, z=2976}. Hole Size: 76. Creative: false
-[25Jul2025 02:26:58.968] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7392.54, 80.00, 2989.09).
- Impact position: BlockPos{x=7389, y=79, z=2988}. Hole Size: 29. Creative: false
-[25Jul2025 02:27:01.768] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7392.58, 80.00, 2984.59).
- Impact position: BlockPos{x=7390, y=79, z=2986}. Hole Size: 1. Creative: false
-[25Jul2025 02:27:02.866] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7392.58, 80.00, 2984.59).
- Impact position: BlockPos{x=7390, y=79, z=2985}. Hole Size: 1. Creative: false
-[25Jul2025 02:27:04.020] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7392.58, 80.00, 2983.74).
- Impact position: BlockPos{x=7389, y=79, z=2983}. Hole Size: 110. Creative: false
-[25Jul2025 02:27:31.222] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7392.18, 80.00, 2981.68).
- Impact position: BlockPos{x=7397, y=79, z=2983}. Hole Size: 94. Creative: false
-[25Jul2025 02:27:33.270] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7392.35, 80.00, 2979.66).
- Impact position: BlockPos{x=7397, y=79, z=2976}. Hole Size: 92. Creative: false
-[25Jul2025 02:29:47.426] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:58880] logged in with entity id 39284 at (-6.5, 66.0, -3.5)
-[25Jul2025 02:29:47.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
-[25Jul2025 02:29:47.436] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
-[25Jul2025 02:29:51.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> no way
-[25Jul2025 02:30:05.734] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7414.18, 51.00, 2994.12).
- Impact position: BlockPos{x=7414, y=45, z=2999}. Hole Size: 499. Creative: false
-[25Jul2025 02:30:29.826] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7415.30, 58.00, 2986.32).
- Impact position: BlockPos{x=7414, y=51, z=2994}. Hole Size: 499. Creative: false
-[25Jul2025 02:30:37.927] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7401.02, 66.00, 2977.11).
- Impact position: BlockPos{x=7414, y=60, z=2984}. Hole Size: 499. Creative: false
-[25Jul2025 02:30:41.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Disconnected
-[25Jul2025 02:30:41.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
-[25Jul2025 02:30:48.430] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7349, y=77, z=2928} BlockPos{x=7350, y=76, z=2929}
-[25Jul2025 02:30:59.869] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7353, y=78, z=2896} BlockPos{x=7353, y=76, z=2896}
-[25Jul2025 02:30:59.946] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7353, y=78, z=2896} BlockPos{x=7353, y=76, z=2896}
-[25Jul2025 02:31:03.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:58943] logged in with entity id 39983 at (-6.5, 66.0, -3.5)
-[25Jul2025 02:31:03.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
-[25Jul2025 02:31:03.328] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
-[25Jul2025 02:31:12.481] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7400.30, 73.00, 2955.30).
- Impact position: BlockPos{x=7397, y=67, z=2967}. Hole Size: 388. Creative: false
-[25Jul2025 02:31:13.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7376, y=75, z=2854} BlockPos{x=7377, y=74, z=2854}
-[25Jul2025 02:31:28.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leyys> holq
-[25Jul2025 02:31:32.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> OLA
-[25Jul2025 02:31:35.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> tasi la huerfana
-[25Jul2025 02:31:43.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Curlyelperroo> KJJJJJ
-[25Jul2025 02:31:52.124] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7400.40, 80.00, 2964.20).
- Impact position: BlockPos{x=7395, y=77, z=2960}. Hole Size: 36. Creative: false
-[25Jul2025 02:31:53.823] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7400.40, 80.00, 2964.20).
- Impact position: BlockPos{x=7390, y=78, z=2966}. Hole Size: 2. Creative: false
-[25Jul2025 02:31:55.624] [Server thread/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Otaku6063 threw a [Hole Filler] from (7400.40, 80.00, 2964.20).
- Impact position: BlockPos{x=7396, y=78, z=2962}. Hole Size: 137. Creative: false
-[25Jul2025 02:32:01.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> te hago tp?
-[25Jul2025 02:32:04.274] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
-[25Jul2025 02:32:04.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
-[25Jul2025 02:32:25.523] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59000] logged in with entity id 40684 at (-6.5, 66.0, -3.5)
-[25Jul2025 02:32:25.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
-[25Jul2025 02:32:25.532] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
-[25Jul2025 02:32:40.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leyys> hola
-[25Jul2025 02:32:41.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> te hacemos tp??
-[25Jul2025 02:32:42.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leyys> test
-[25Jul2025 02:33:25.873] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
-[25Jul2025 02:33:25.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
-[25Jul2025 02:33:47.773] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59065] logged in with entity id 41234 at (-6.5, 66.0, -3.5)
-[25Jul2025 02:33:47.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
-[25Jul2025 02:33:47.779] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
-[25Jul2025 02:34:08.455] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-12, y=65, z=-4}
-[25Jul2025 02:34:47.927] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
-[25Jul2025 02:34:47.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
-[25Jul2025 02:35:01.275] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59126] logged in with entity id 41841 at (-6.5, 66.0, -3.5)
-[25Jul2025 02:35:01.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
-[25Jul2025 02:35:01.281] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
-[25Jul2025 02:35:07.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> te anda muy mnal?
-[25Jul2025 02:36:04.372] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
-[25Jul2025 02:36:04.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
-[25Jul2025 02:36:59.821] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59222] logged in with entity id 42762 at (-6.5, 66.0, -3.5)
-[25Jul2025 02:36:59.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
-[25Jul2025 02:36:59.827] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
-[25Jul2025 02:37:35.973] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Curlyelperroo lost connection: Disconnected
-[25Jul2025 02:37:35.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Curlyelperroo left the game
-[25Jul2025 02:38:00.223] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Disconnected
-[25Jul2025 02:38:00.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
-[25Jul2025 02:38:06.717] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otaku6063 lost connection: Disconnected
-[25Jul2025 02:38:06.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 left the game
-[25Jul2025 02:38:14.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[25Jul2025 02:38:14.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[25Jul2025 02:38:14.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[25Jul2025 02:38:14.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[25Jul2025 02:38:14.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[25Jul2025 02:38:14.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[25Jul2025 02:38:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[25Jul2025 02:38:14.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_doppelganger:subworld
-[25Jul2025 02:38:14.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[25Jul2025 02:38:14.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Jul2025 02:38:14.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Jul2025 02:38:14.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (subworld): All chunks are saved
-[25Jul2025 02:38:14.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[25Jul2025 02:38:14.619] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
+[25Jul2025 02:40:14.570] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Jul2025 02:40:14.575] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[25Jul2025 02:40:14.920] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Jul2025 02:40:14.968] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Jul2025 02:40:15.145] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Servidor/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[25Jul2025 02:40:15.260] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[25Jul2025 02:40:15.262] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[25Jul2025 02:40:15.263] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[25Jul2025 02:40:15.264] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[25Jul2025 02:40:15.562] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[25Jul2025 02:40:15.563] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[25Jul2025 02:40:17.650] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Jul2025 02:40:17.773] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[25Jul2025 02:40:17.774] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[25Jul2025 02:40:17.776] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Jul2025 02:40:17.883] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.0+mc1.20.1: 96 options available, 1 override(s) found
+[25Jul2025 02:40:17.884] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[25Jul2025 02:40:17.884] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Jul2025 02:40:17.896] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Jul2025 02:40:18.013] [main/WARN] [mixin/]: Reference map 'carryonextend.refmap.json' for carryonextend.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Jul2025 02:40:18.885] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[25Jul2025 02:40:19.022] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[25Jul2025 02:40:19.023] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[25Jul2025 02:40:19.023] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[25Jul2025 02:40:19.024] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[25Jul2025 02:40:19.024] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[25Jul2025 02:40:19.025] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[25Jul2025 02:40:19.028] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[25Jul2025 02:40:19.028] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[25Jul2025 02:40:19.178] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[25Jul2025 02:40:19.722] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.287 s after launch)
+[25Jul2025 02:40:19.866] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Jul2025 02:40:19.867] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Jul2025 02:40:19.983] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[25Jul2025 02:40:19.983] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[25Jul2025 02:40:21.275] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1549 milliseconds
+[25Jul2025 02:40:24.223] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
+[25Jul2025 02:40:24.477] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[25Jul2025 02:40:24.478] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[25Jul2025 02:40:24.530] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Cached update file detected, using that!
+[25Jul2025 02:40:24.536] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[25Jul2025 02:40:24.536] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[25Jul2025 02:40:24.700] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
+[25Jul2025 02:40:24.700] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
+[25Jul2025 02:40:24.700] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[25Jul2025 02:40:24.766] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loading config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
+[25Jul2025 02:40:24.766] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Built config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
+[25Jul2025 02:40:24.767] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loaded config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
+[25Jul2025 02:40:24.826] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[25Jul2025 02:40:26.113] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: Found block type with duplicate id (minecraft:oak), skipping
+[25Jul2025 02:40:27.062] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[25Jul2025 02:40:27.198] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[25Jul2025 02:40:27.198] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[25Jul2025 02:40:27.198] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[25Jul2025 02:40:27.198] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[25Jul2025 02:40:27.198] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[25Jul2025 02:40:27.199] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[25Jul2025 02:40:27.199] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[25Jul2025 02:40:27.199] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[25Jul2025 02:40:27.199] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[25Jul2025 02:40:27.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json
+[25Jul2025 02:40:27.291] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[25Jul2025 02:40:27.316] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[25Jul2025 02:40:27.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: OUTDATED Current: 1.8.2+mod Target: 1.8.6+mod
+[25Jul2025 02:40:27.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Jul2025 02:40:27.630] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[25Jul2025 02:40:27.636] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[25Jul2025 02:40:27.637] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Jul2025 02:40:27.646] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Jul2025 02:40:27.649] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Jul2025 02:40:27.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[25Jul2025 02:40:27.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[25Jul2025 02:40:27.788] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.3 Target: null
+[25Jul2025 02:40:27.788] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[25Jul2025 02:40:27.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[25Jul2025 02:40:27.802] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[25Jul2025 02:40:27.862] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[25Jul2025 02:40:28.213] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Jul2025 02:40:28.312] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Jul2025 02:40:28.534] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
+[25Jul2025 02:40:28.534] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
+[25Jul2025 02:40:32.969] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/Servidor/servidor_minecraft/tacz
+[25Jul2025 02:40:32.971] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[25Jul2025 02:40:32.972] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[25Jul2025 02:40:33.116] [main/INFO] [PFM-DataGen/]: Data Hash for Game Data and Variant List matched, skipping generation
+[25Jul2025 02:40:36.071] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[25Jul2025 02:40:36.174] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1782 advancements
+[25Jul2025 02:40:36.288] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[25Jul2025 02:40:36.290] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[25Jul2025 02:40:36.333] [main/WARN] [ModernFix/]: Initial datapack load took 7.762 s
+[25Jul2025 02:40:36.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Jul2025 02:40:36.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Jul2025 02:40:36.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Jul2025 02:40:36.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Jul2025 02:40:36.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Jul2025 02:40:36.761] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Jul2025 02:40:36.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Jul2025 02:40:36.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Jul2025 02:40:36.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Jul2025 02:40:36.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Jul2025 02:40:36.883] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
+[25Jul2025 02:40:36.933] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Jul2025 02:40:37.164] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[25Jul2025 02:40:37.424] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[25Jul2025 02:40:37.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Jul2025 02:40:37.512] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 87 ms
+[25Jul2025 02:40:37.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.634s)! For help, type "help"
+[25Jul2025 02:40:37.544] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Jul2025 02:40:37.548] [Server thread/WARN] [ModernFix/]: Dedicated server took 25.113 seconds to load
+[25Jul2025 02:42:22.855] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[25Jul2025 02:42:22.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otaku6063[/172.22.42.121:56050] logged in with entity id 3 at (7364.839054027999, 80.0, 2966.91365441955)
+[25Jul2025 02:42:22.992] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Otaku6063
+[25Jul2025 02:42:23.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 joined the game
+[25Jul2025 02:42:23.082] [Server thread/INFO] [Jade/]: Syncing config to Otaku6063 (25f1de13-4001-3ca5-9353-f2b93d25a972)
+[25Jul2025 02:42:40.322] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59505] logged in with entity id 580 at (-6.5, 66.0, -3.5)
+[25Jul2025 02:42:40.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:42:40.355] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 02:43:32.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> te hago tp, talvez el lugar te da lag
+[25Jul2025 02:43:40.916] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Disconnected
+[25Jul2025 02:43:40.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 02:44:12.764] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59583] logged in with entity id 1756 at (-6.5, 66.0, -3.5)
+[25Jul2025 02:44:12.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:44:12.773] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 02:44:14.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Otaku6063: Teleported Leyys to Otaku6063]
+[25Jul2025 02:44:33.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> q te paso brother
+[25Jul2025 02:45:13.159] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
+[25Jul2025 02:45:13.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 02:45:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Otaku6063> wdasdad
+[25Jul2025 02:46:12.161] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:59680] logged in with entity id 2396 at (7365.5, 80.0, 2966.5)
+[25Jul2025 02:46:12.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:46:12.205] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 02:46:14.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Leyys a server operator
+[25Jul2025 02:47:02.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Leyys no longer a server operator
+[25Jul2025 02:47:34.355] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
+[25Jul2025 02:47:34.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 02:48:22.823] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7348, y=78, z=2898} BlockPos{x=7349, y=76, z=2899}
+[25Jul2025 02:48:22.925] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7349, y=78, z=2898} BlockPos{x=7350, y=76, z=2899}
+[25Jul2025 02:48:23.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7349, y=78, z=2899} BlockPos{x=7351, y=76, z=2899}
+[25Jul2025 02:48:24.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7348, y=78, z=2899} BlockPos{x=7349, y=76, z=2900}
+[25Jul2025 02:55:08.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has reached the goal [Zombie Doctor]
+[25Jul2025 02:57:12.464] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:60211] logged in with entity id 5864 at (7365.5, 80.0, 2966.5)
+[25Jul2025 02:57:12.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:57:12.510] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 02:57:58.461] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
+[25Jul2025 02:57:58.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 02:58:14.110] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:60264] logged in with entity id 6662 at (7365.5, 80.0, 2966.5)
+[25Jul2025 02:58:14.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:58:14.159] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 02:58:44.207] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
+[25Jul2025 02:58:44.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 02:59:05.509] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:60298] logged in with entity id 7022 at (7365.5, 80.0, 2966.5)
+[25Jul2025 02:59:05.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:59:05.555] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 02:59:49.856] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Disconnected
+[25Jul2025 02:59:49.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 02:59:58.909] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:60342] logged in with entity id 7119 at (7365.5, 80.0, 2966.5)
+[25Jul2025 02:59:58.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 02:59:58.959] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 03:00:29.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Otaku6063: Made Leyys a server operator]
+[25Jul2025 03:00:45.008] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Timed out
+[25Jul2025 03:00:45.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 03:01:07.008] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leyys[/172.22.232.174:60400] logged in with entity id 7280 at (7365.5, 80.0, 2966.5)
+[25Jul2025 03:01:07.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys joined the game
+[25Jul2025 03:01:07.059] [Server thread/INFO] [Jade/]: Syncing config to Leyys (86aed2f9-4e7c-345c-ad08-6663e0a8346b)
+[25Jul2025 03:01:32.554] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leyys lost connection: Disconnected
+[25Jul2025 03:01:32.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leyys left the game
+[25Jul2025 03:02:35.059] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otaku6063 lost connection: Disconnected
+[25Jul2025 03:02:35.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 left the game
+[25Jul2025 03:02:40.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Jul2025 03:02:40.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Jul2025 03:02:40.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Jul2025 03:02:40.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Jul2025 03:02:40.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Jul2025 03:02:41.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Jul2025 03:02:41.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Jul2025 03:02:41.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_doppelganger:subworld
+[25Jul2025 03:02:41.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Jul2025 03:02:41.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Jul2025 03:02:41.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Jul2025 03:02:41.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (subworld): All chunks are saved
+[25Jul2025 03:02:41.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Jul2025 03:02:41.084] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config

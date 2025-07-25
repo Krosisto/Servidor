@@ -1898,6 +1898,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-25 01:42:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-07-25 01:42:15 +0000"
@@ -1910,9 +1916,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
+  "minecraft:story/cure_zombie_villager": {
     "criteria": {
-      "has_bow": "2025-07-25 01:42:03 +0000"
+      "cured_zombie": "2025-07-25 02:55:08 +0000"
     },
     "done": true
   },
